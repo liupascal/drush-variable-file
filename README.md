@@ -4,14 +4,15 @@ Custom drush command to create a new file from a distant source to Drupal, and a
 
 To install it, copy the folder to your drush folder and don't forget to run a drush cc drush to have your drush detect your new function.
 
-Usage :
+<p>Usage : <br />
 drush add-variable-fid <file> <variable_name> [--folder]
+</p>
 
-Arguments :
-<file> : Source file, can be a distant file with full URL.
+<p>Arguments : <br/>
+<file> : Source file, can be a distant file with full URL. <br />
 <variable_name> : Your Drupal destination variable.
+</p>
 
-
-Options :
+<p>Options : </br> 
 --folder : Specify a folder name in your public:// folder. If it does not exist, it will be created.
-
+</p>
