@@ -69,6 +69,7 @@ function drush_variable_fid_add_variable_fid() {
   $file->filemime = file_get_mimetype($file->uri);
   $file->status = FILE_STATUS_PERMANENT;
   $file = file_save($file);
+  file_usage_add($file, 'drush', $variable_destination, 1, 1);
 
   if (isset($file->fid) && !empty($file->fid)) {
     // Assign the file id to the variable
