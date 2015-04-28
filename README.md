@@ -9,8 +9,8 @@ drush add-variable-fid <file> <variable_name> [--folder]
 </p>
 
 <p>Arguments : <br/>
-<file> : Source file, can be a distant file with full URL. <br />
-<variable_name> : Your Drupal destination variable.
+file : Source file, can be a distant file with full URL. <br />
+variable_name : Your Drupal destination variable.
 </p>
 
 <p>Options : </br> 
